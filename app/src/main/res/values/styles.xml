@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">#FFF</item><!-- Toolbar返回按钮颜色 -->
+    </style>
+
+    <style name="AppTheme.StatusBarTransparent" parent="AppTheme">
+        <item name="android:statusBarColor">@android:color/transparent</item><!-- statusbar设置成透明 -->
+    </style>
+
+
+    <style name="CollapsingToolbarLayoutTitle" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+
+</resources>
