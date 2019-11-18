@@ -28,11 +28,11 @@ TabLayout + ViewPager
 RecyclerView  
 SmartRefreshLayout  
 
-**万能Adapter**
-用于RecyclerView的万能Adapter封装，可以简化代码量
-CommonAdapter
-CommonViewHolder
+**万能Adapter** 
+用于RecyclerView的万能Adapter封装，可以简化代码量 
+CommonAdapter 
+CommonViewHolder 
 
-**ClickEventActivity**
-点击产生一个动作，同时返回一个结果。只需要替换Presenter就可以实现不同的操作，可用于后台应用的学习。现有Presenter如下：
-OkhttpPresenter -- 演示Okhttp的以拦截器的使用示例
+**ClickEventActivity** 
+点击产生一个动作，同时返回一个结果。只需要替换Presenter就可以实现不同的操作，可用于后台应用的学习。现有Presenter如下： 
+OkhttpPresenter -- 演示Okhttp的以拦截器的使用示例 
